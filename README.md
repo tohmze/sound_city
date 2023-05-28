@@ -1,5 +1,5 @@
 # sound_city
-sound and visual project that uses weather
+sound and visual project that uses the weather of your city
 
 to use:
 1. go to https://weatherstack.com/ and create an account to get a free api key
