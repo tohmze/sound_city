@@ -1,0 +1,92 @@
+body{
+    background-color: #ffffff;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.text-center{
+  text-align: center;
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  font-size: 50px;
+  font-family: 'Merriweather', serif;
+  word-spacing: 2px;
+  margin-bottom: 0;
+}
+
+#form{
+    display: block;
+}
+
+#form input[type="text"]{
+    font-size: 1rem;
+    background-color: #f2f2f2;
+    border: 2px solid gray;
+    padding: 15px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.btn{
+    background-color: grey;
+    padding: 15px;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid gray;
+    transition: 0.2s opacity;
+    border-radius: 30px;
+
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.soundSpan {
+    color: red; /* Initial color */
+    animation: color-transition 20s infinite; /* Animation with duration and iteration count */
+  }
+  
+  @keyframes color-transition {
+    0% {
+      color: rgb(255, 100, 100); /* Starting color */
+    }
+    50% {
+      color: cadetblue; /* Intermediate color */
+    }
+    100% {
+      color: rgb(255, 100, 100); /* Ending color */
+    }
+  }
+
+.soundBoard{
+  background-color: white;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+    margin: 0;
+}
+
+.letters{
+  text-align: center;
+  font-size: 50px;
+  color: #f2f2f2;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+}
